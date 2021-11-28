@@ -14,10 +14,10 @@ public class TicketListTest {
 	public void listTicketsWithValidParameters() {
 		TicketList ticketList = new TicketList();
 		//Execution
-		String result = ticketList.listTickets(2, 25);
+		String result = ticketList.listTickets(1, 25);
 		//Verification
 		assertEquals("SUCCESS",result);
-		assertEquals(ticketList.ticketArray.length, 25);
+		assertEquals(ticketList.ticketArray.length, 5);
 	}
 	
 	@Test 
@@ -51,12 +51,10 @@ public class TicketListTest {
 		TicketList ticketList = new TicketList();
 		//Execution
 		ticketList.listTickets(1, 25);
-		ticketList.listTickets(2, 25);
-		ticketList.listTickets(3, 25);
-		String result = ticketList.listTickets(5, 25);
+		String result = ticketList.listTickets(2, 25);
 		//Verification
 		assertEquals("SUCCESS",result);
-		assertEquals(ticketList.ticketArray.length, 1);
+		assertEquals(ticketList.ticketArray.length, 5);
 	}
 	
 	@Test
