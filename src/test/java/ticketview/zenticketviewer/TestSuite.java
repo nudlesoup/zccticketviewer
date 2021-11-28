@@ -7,7 +7,6 @@ import org.junit.runners.Suite;
 
 @Suite.SuiteClasses({
 	TicketTest.class,
-	
 	TicketListTest.class,
 	HttpRequestsTest.class,
 	JsonParserTest.class
