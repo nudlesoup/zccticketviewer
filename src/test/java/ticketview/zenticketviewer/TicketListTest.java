@@ -17,7 +17,7 @@ public class TicketListTest {
 		String result = ticketList.listTickets(1, 25);
 		//Verification
 		assertEquals("SUCCESS",result);
-		assertEquals(ticketList.ticketArray.length, 5);
+		assertEquals(ticketList.ticketArray.length, 25);
 	}
 	
 	@Test 
@@ -116,10 +116,9 @@ public class TicketListTest {
 		TicketList ticketList = new TicketList();
 		//Execution
 		ticketList.listTickets(1, 25);
-		ticketList.listTickets(2, 25);
-		ticketList.listTickets(3, 25);
-		ticketList.listTickets(4, 25);
-		String result = ticketList.listTickets(6, 25);
+		ticketList.listTickets(2, 5);
+	
+		String result = ticketList.listTickets(3, 25);
 		//Verification
 		assertEquals("Error: no records found",result);
 	}
