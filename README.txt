@@ -30,11 +30,6 @@ JAVA 8, JDK and JRE and an IDE(Eclipse)
 3. Go to : zccticketviewer-main/src/main/java/ticketview/zenticketviewer/view/Menu.java to run the application. Right Click and run as JAVA Application inside eclipse.
 4. For Unit Testing, there are 4 files for unit testing of methods of different class (HttpRequestsTest.java ,JsonParserTest.java, TicketListTest.java, TicketTest.java). Go to -> zccticketviewer-main/src/test/java/ticketview/zenticketviewer/. Right click and run each file as JUnit Test. To run test for each function in the file separately, Open the file for right click on the function names and run JUNIT tests individually.
 5. For Running all Unit Tests together, Just execute TestRunner.java as a java application and it runs through all unit tests.
-
-
-Super extra instruction to deploy production zendesk ticket viewer jars:
-1. Haven maven installed on the terminal, Go to the zccticketviewer-main Folder and run : mvn clean compile assembly:single. You will find the new deployed jar under target named zendeskticketviewer-jar-with-dependencies.jar :)
-
 										
 # Important Information on class files and the functions :
   --------------------
@@ -57,13 +52,16 @@ This README
 ## Running the test:
 Check steps 4,5 above.
 
+
+Super extra instruction to deploy production zendesk ticket viewer jars:
+1. Haven maven installed on the terminal, Go to the zccticketviewer-main Folder and run : mvn clean compile assembly:single. You will find the new deployed jar under target named zendeskticketviewer-jar-with-dependencies.jar :)
 					
 # Build With
   ----------
 This tool tested with:
 java version: Java 8
 Junit version: 4.11
-OS: Mac but compatible with Windows
+OS: Mac
 
 
 Contact info: adhamana@asu.edu, https://www.linkedin.com/in/ameyad95, https://nudlesoup.github.io 
