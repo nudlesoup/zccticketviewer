@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ticketview.zenticketviewer.TicketListTest" time="6.562" tests="10" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ameyad/eclipse-workspace/zenticketviewer/target/test-classes:/Users/ameyad/eclipse-workspace/zenticketviewer/target/classes:/Users/ameyad/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/ameyad/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/ameyad/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/ameyad/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/ameyad/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Users/ameyad/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657/jre/lib"/>
+    <property name="sun.java.command" value="/Users/ameyad/eclipse-workspace/zenticketviewer/target/surefire/surefirebooter16856163817417178326.jar /Users/ameyad/eclipse-workspace/zenticketviewer/target/surefire 2021-11-26T20-15-41_529-jvmRun1 surefire2121675335191995935tmp surefire_09996935590900937473tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ameyad/eclipse-workspace/zenticketviewer/target/test-classes:/Users/ameyad/eclipse-workspace/zenticketviewer/target/classes:/Users/ameyad/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/ameyad/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/ameyad/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/ameyad/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/ameyad/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ameyad"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/Users/ameyad/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ameyad/eclipse-workspace/zenticketviewer"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/ameyad/eclipse-workspace/zenticketviewer/target/surefire/surefirebooter16856163817417178326.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.1+12"/>
+    <property name="user.name" value="ameyad"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
+    <property name="localRepository" value="/Users/ameyad/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/sj/4_4td_ds04xdr_mpp3273tmw0000gn/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/ameyad/eclipse-workspace/zenticketviewer"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ameyad/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="listTicketsWithPerPageMinus" classname="ticketview.zenticketviewer.TicketListTest" time="0"/>
+  <testcase name="listTicketsWithoutRecords" classname="ticketview.zenticketviewer.TicketListTest" time="2.525"/>
+  <testcase name="listTicketsWithPageMinus" classname="ticketview.zenticketviewer.TicketListTest" time="0.001"/>
+  <testcase name="listTicketsWithPage0" classname="ticketview.zenticketviewer.TicketListTest" time="0"/>
+  <testcase name="listTicketsWithPerPageMaximum" classname="ticketview.zenticketviewer.TicketListTest" time="0.625"/>
+  <testcase name="listTicketsWithPerPageExceedLimit" classname="ticketview.zenticketviewer.TicketListTest" time="1.764">
+    <failure message="expected:&lt;[SUCCESS]&gt; but was:&lt;[Error: no records found]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[SUCCESS]> but was:<[Error: no records found]>
+	at ticketview.zenticketviewer.TicketListTest.listTicketsWithPerPageExceedLimit(TicketListTest.java:58)
+]]></failure>
+    <system-out><![CDATA[
+Processing your request, please wait...
+
+                                     ** Displaying page number 1 ** 
+ ------------------------------------------------------------------------------------------------------------------------------------
+| ID         | Type       | Subject                                            | Priority   | Status     | Created                   |
+ ------------------------------------------------------------------------------------------------------------------------------------
+| 1          | incident   | Sample ticket: Meet the ticket                     | normal     | open       | 2021-11-26T19:28:40Z      |
+| 2          | null       | My printer is on fire!                             | null       | open       | 2021-11-27T02:28:33Z      |
+| 3          | null       | Help!                                              | null       | open       | 2021-11-27T02:28:34Z      |
+| 4          | null       | Test 4!                                            | null       | open       | 2021-11-27T02:37:04Z      |
+| 5          | null       | Test5!                                             | null       | open       | 2021-11-27T02:37:04Z      |
+| 6          | null       | Test6!                                             | null       | open       | 2021-11-27T02:37:05Z      |
+| 7          | null       | Test7!                                             | null       | open       | 2021-11-27T02:37:06Z      |
+| 8          | null       | Test8!                                             | null       | open       | 2021-11-27T02:37:06Z      |
+| 9          | null       | Test9!                                             | null       | open       | 2021-11-27T02:37:07Z      |
+| 10         | null       | Test10!                                            | null       | open       | 2021-11-27T02:37:07Z      |
+| 11         | null       | Test11!                                            | null       | open       | 2021-11-27T02:37:08Z      |
+| 12         | null       | Test12!                                            | null       | open       | 2021-11-27T02:37:09Z      |
+| 13         | null       | Test13!                                            | null       | open       | 2021-11-27T02:37:09Z      |
+| 14         | null       | Test14!                                            | null       | open       | 2021-11-27T02:37:10Z      |
+| 15         | null       | Test15!                                            | null       | open       | 2021-11-27T02:37:11Z      |
+| 16         | null       | Test16!                                            | null       | open       | 2021-11-27T02:37:11Z      |
+| 17         | null       | Test17!                                            | null       | open       | 2021-11-27T02:37:12Z      |
+| 18         | null       | Test18!                                            | null       | open       | 2021-11-27T02:37:12Z      |
+| 19         | null       | Test19!                                            | null       | open       | 2021-11-27T02:37:13Z      |
+| 20         | null       | Test20!                                            | null       | open       | 2021-11-27T02:37:14Z      |
+| 21         | null       | Test21!                                            | null       | open       | 2021-11-27T02:37:14Z      |
+| 22         | null       | Test22!                                            | null       | open       | 2021-11-27T02:37:15Z      |
+| 23         | null       | Test23!                                            | null       | open       | 2021-11-27T02:37:16Z      |
+| 24         | null       | Test24!                                            | null       | open       | 2021-11-27T02:37:16Z      |
+| 25         | null       | Test25!                                            | null       | open       | 2021-11-27T02:37:17Z      |
+ ------------------------------------------------------------------------------------------------------------------------------------
+
+Processing your request, please wait...
+
+                                     ** Displaying page number 2 ** 
+ ------------------------------------------------------------------------------------------------------------------------------------
+| ID         | Type       | Subject                                            | Priority   | Status     | Created                   |
+ ------------------------------------------------------------------------------------------------------------------------------------
+| 26         | null       | Test26!                                            | null       | open       | 2021-11-27T02:37:18Z      |
+| 27         | null       | Test27!                                            | null       | open       | 2021-11-27T02:37:18Z      |
+| 28         | null       | Test28!                                            | null       | open       | 2021-11-27T02:37:19Z      |
+| 29         | null       | Test29!                                            | null       | open       | 2021-11-27T02:37:19Z      |
+| 30         | null       | Test30!                                            | null       | open       | 2021-11-27T02:37:20Z      |
+ ------------------------------------------------------------------------------------------------------------------------------------
+
+Processing your request, please wait...
+
+Processing your request, please wait...
+]]></system-out>
+  </testcase>
+  <testcase name="listTicketsWithPageNotExist" classname="ticketview.zenticketviewer.TicketListTest" time="0.374"/>
+  <testcase name="listTicketsWithPerPageExceedTotalTickets" classname="ticketview.zenticketviewer.TicketListTest" time="0.597"/>
+  <testcase name="listTicketsWithPerPage0" classname="ticketview.zenticketviewer.TicketListTest" time="0"/>
+  <testcase name="listTicketsWithValidParameters" classname="ticketview.zenticketviewer.TicketListTest" time="0.669">
+    <failure message="expected:&lt;5&gt; but was:&lt;25&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<5> but was:<25>
+	at ticketview.zenticketviewer.TicketListTest.listTicketsWithValidParameters(TicketListTest.java:20)
+]]></failure>
+    <system-out><![CDATA[
+Processing your request, please wait...
+
+                                     ** Displaying page number 2 ** 
+ ------------------------------------------------------------------------------------------------------------------------------------
+| ID         | Type       | Subject                                            | Priority   | Status     | Created                   |
+ ------------------------------------------------------------------------------------------------------------------------------------
+| 26         | null       | Test26!                                            | null       | open       | 2021-11-27T02:37:18Z      |
+| 27         | null       | Test27!                                            | null       | open       | 2021-11-27T02:37:18Z      |
+| 28         | null       | Test28!                                            | null       | open       | 2021-11-27T02:37:19Z      |
+| 29         | null       | Test29!                                            | null       | open       | 2021-11-27T02:37:19Z      |
+| 30         | null       | Test30!                                            | null       | open       | 2021-11-27T02:37:20Z      |
+ ------------------------------------------------------------------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+</testsuite>
