@@ -28,7 +28,7 @@ java -jar Testers-zendeskticketviewer.jar user_emailid password subdomain
 These further instructions are for you to make a copy of this project, set it up and running on your local machine in an IDE like eclipse and check the codebase, Unit Testing and design :)
 ## Pre-requisites: 
 JAVA 8, JDK and JRE and an IDE(Eclipse)
-1. Download the project from either GitHub : https://github.com/nudlesoup/zccticketviewer or Drive : https://drive.google.com/drive/folders/1Z7bD55DTG_oIZ3jr1wfxNXkbDwpeicel?usp=sharing . And extract the zip file to a folder.
+1. Download the project from either GitHub : https://github.com/nudlesoup/zccticketviewer or Drive : https://drive.google.com/drive/folders/1Z7bD55DTG_oIZ3jr1wfxNXkbDwpeicel?usp=sharing . And extract the zip file to a folder(zccticketviewer-main). Prefer to download zip from Github, Drive zipping can take a while.
 2. Open Eclipse IDE, Go to : File -> Open project from file system -> import source choose Directory...(Choose the extracted dir ex : /Users/yourusername/Downloads/zccticketviewer-main)->Finish
 3. Setup your environment/account details with your own username, password and subdomain inside : src/resources/config.properties. Currently set to Ameya's account details.
 4. Go to : zccticketviewer-main/src/main/java/ticketview/zenticketviewer/view/Menu.java to run the application. Right Click and run as JAVA Application inside eclipse.
@@ -58,7 +58,7 @@ Check steps 4,5 above.
 
 
 Super extra instruction to deploy production zendesk ticket viewer jars:
-1. Haven maven installed on the terminal, Go to the zccticketviewer-main Folder and run : mvn clean compile assembly:single. You will find the new deployed jar under target named zendeskticketviewer-jar-with-dependencies.jar :)
+1. Have maven installed on the terminal, Go to the zccticketviewer-main Folder and run : mvn clean compile assembly:single. You will find the new deployed jar under target named zendeskticketviewer-jar-with-dependencies.jar :)
 					
 # Build With
   ----------
