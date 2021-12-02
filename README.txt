@@ -19,17 +19,21 @@ Your company needs you to build a Ticket Viewer that will:
 
 # Getting Started (Installation & Guide)
   ----------------
-1. Just to run the Zendesk CLI Application, Download this file : Ameya-zendeskticketviewer.jar, from : https://github.com/nudlesoup/zccticketviewer or on drive: https://drive.google.com/file/d/1m1YK6iro54RyOz1c_Rtm9PGkTDq--KgC/view?usp=sharing.
+1. Just to run my Zendesk CLI Application(only access to Ameya's Tickets), Download this file : Ameya-zendeskticketviewer.jar, from : https://github.com/nudlesoup/zccticketviewer or on drive: https://drive.google.com/file/d/1m1YK6iro54RyOz1c_Rtm9PGkTDq--KgC/view?usp=sharing.
 2. After Downloading the file, go the the downloaded folder where the jar file is downloaded & run the following command :  java -jar Ameya-zendeskticketviewer.jar
+3. To run any Zendesk CLI Application(access any user's Zendesk allowed tickets), Download this file : Testers-zendeskticketviewer.jar, from : https://github.com/nudlesoup/zccticketviewer go the the downloaded folder where the jar file is downloaded & run the following 3 arguments command(your personal Zendesk id, Zendesk password and subdomain) :  
+java -jar Testers-zendeskticketviewer.jar user_emailid password subdomain
 
-These further instructions are for you a copy of this project up and running on your local machine and check the codebase, Unit Testing and design :)
+
+These further instructions are for you to make a copy of this project, set it up and running on your local machine in an IDE like eclipse and check the codebase, Unit Testing and design :)
 ## Pre-requisites: 
 JAVA 8, JDK and JRE and an IDE(Eclipse)
 1. Download the project from either GitHub : https://github.com/nudlesoup/zccticketviewer or Drive : https://drive.google.com/drive/folders/1YHDedILHIh2CI2TWy5VxYVOim-lUgLtC?usp=sharing . And extract the zip file to a folder.
 2. Open Eclipse IDE, Go to : File -> Open project from file system -> import source choose Directory...(Choose the extracted dir ex : /Users/yourusername/Downloads/zccticketviewer-main)->Finish
-3. Go to : zccticketviewer-main/src/main/java/ticketview/zenticketviewer/view/Menu.java to run the application. Right Click and run as JAVA Application inside eclipse.
-4. For Unit Testing, there are 4 files for unit testing of methods of different class (HttpRequestsTest.java ,JsonParserTest.java, TicketListTest.java, TicketTest.java). Go to -> zccticketviewer-main/src/test/java/ticketview/zenticketviewer/. Right click and run each file as JUnit Test. To run test for each function in the file separately, Open the file for right click on the function names and run JUNIT tests individually.
-5. For Running all Unit Tests together, Just execute TestRunner.java as a java application and it runs through all unit tests.
+3. Setup your environment with your own username, password and subdomain inside : src/resources/config.properties. Currently set to my account.
+4. Go to : zccticketviewer-main/src/main/java/ticketview/zenticketviewer/view/Menu.java to run the application. Right Click and run as JAVA Application inside eclipse.
+5. For Unit Testing, there are 4 files for unit testing of methods of different class (HttpRequestsTest.java ,JsonParserTest.java, TicketListTest.java, TicketTest.java). Go to -> zccticketviewer-main/src/test/java/ticketview/zenticketviewer/. Right click and run each file as JUnit Test. To run test for each function in the file separately, Open the file for right click on the function names and run JUNIT tests individually.
+6. For Running all Unit Tests together, Just execute TestRunner.java as a java application and it runs through all unit tests.
 										
 # Important Information on class files and the functions :
   --------------------
